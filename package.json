@@ -1,0 +1,18 @@
+{
+  "name": "up-to-speed-with-angularjs",
+  "version": "1.0.0",
+  "repository": "https://github.com/RoelZ/up-to-speed-with-angularjs.git",
+  "description": "Example code for the Up-to-Speed course for Genexis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server --files **/*.js --no-notify --no-online"
+  },
+  "author": "Roel Heesterbeek",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "systemjs": "^0.21.5",
+    "systemjs-plugin-babel": "0.0.25"
+  }
+}
